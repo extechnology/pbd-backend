@@ -87,8 +87,11 @@ DATABASES = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://pbdinfra.com",
-    "https://www.pbdinfra.com"
+    "http://pbdinfra.com",
+    "https://www.pbdinfra.com",
+    "http://www.pbdinfra.com",
+    "http://www.server.pbdinfra.com",
+    "https://www.server.pbdinfra.com",
     
 ]
 
